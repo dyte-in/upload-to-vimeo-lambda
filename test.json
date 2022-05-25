@@ -1,0 +1,47 @@
+{
+    "event": "recording.statusUpdate",
+    "meeting": {
+      "id": "f97c25e6-8719-4bc5-a253-b866ed5beb34",
+      "title": "testing-1",
+      "roomName": "kftfuz-fhbhci",
+      "status": "LIVE",
+      "createdAt": "2022-05-25T08:00:27.371Z",
+      "organizedBy": {
+        "id": "9f163c05-d581-468e-b28f-4dc992ea6851",
+        "name": "kushagra-v-testing"
+      }
+    },
+    "participants": [
+      {
+        "id": "f6f4b174-2046-4c18-ac79-ba0db6906931",
+        "name": "test-user",
+        "picture": null,
+        "email": "test-user@kushagra-v-testing.dyte.in",
+        "createdAt": "2022-05-25T08:00:28.914Z"
+      },
+      {
+        "id": "6428c5fc-ab5f-40c3-997d-52e3741f3d19",
+        "name": "sdasd",
+        "picture": null,
+        "email": "sdasd@kushagra-v-testing.dyte.in",
+        "createdAt": "2022-05-25T08:00:56.888Z"
+      },
+      {
+        "id": "8f3be8db-bcb0-4196-a11a-fa2c5cf2dff3",
+        "name": "9a8d48e8-8a20-4263-a060-8c07838367ad",
+        "picture": null,
+        "email": "recorder@dyte.in",
+        "createdAt": "2022-05-25T08:08:49.308Z"
+      }
+    ],
+    "recording": {
+      "recordingId": "96c2befc-e7b5-4634-9957-65184120ffe4",
+      "status": "UPLOADED",
+      "downloadUrl": "https://dyte-recordings-test.s3.ap-south-1.amazonaws.com/9f163c05-d581-468e-b28f-4dc992ea6851/kftfuz-fhbhci_1653466129187.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA5YAHRKZROAVDF4QD%2F20220525%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20220525T080910Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=fa203f9e31690d3547423e6b516283e377ee65900760a8af2faf58e7107e1898",
+      "downloadUrlExpiry": "2022-06-01 08:09:10.986486Z",
+      "startedTime": "2022-05-25 08:08:49.774961Z",
+      "stoppedTime": "2022-05-25 08:09:09.906238Z",
+      "fileSize": 3937533,
+      "invokedTime": "2022-05-25T08:08:49.302Z"
+    }
+  }

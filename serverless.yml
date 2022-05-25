@@ -1,0 +1,16 @@
+service: upload-to-vimeo-lambda
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  environment:
+    VIMEO_API_KEY: YOUR_KEY_HERE
+
+functions:
+  upload:
+    handler: handler.upload
+    events:
+      - httpApi:
+          path: /
+          method: post
