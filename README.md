@@ -45,10 +45,9 @@ After successful deployment, you can call the created application via HTTP:
 curl https://xxxxxxxx.execute-api.us-east-1.amazonaws.com/
 ```
 
-Which should result in response similar to the following (removed `input` content for brevity):
+Which should result in response similar to the following
 
 ```json
-❯ serverless invoke -f upload -p test.json
 {
     "statusCode": 200,
     "body": "{\n  \"message\": \"Upload to vimeo done\"\n}"
